@@ -1,0 +1,61 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'The Brooklyn';
+    src: url('fonts/The\ Brooklyn.otf');
+}
+
+#nl{
+    position:  absolute;
+    font-family: 'The Brooklyn';
+    top: 270px;
+    left: 650px;
+    color: white;
+    font-size: 100px;
+    width: 550px;
+    text-align: center;
+}
+
+#oqe{
+    background-image: linear-gradient(to bottom, #f0c311, #f6cb3e);
+}
+
+.nav {
+    position: absolute;
+    background-color: #2B80B8;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+}
+
+a{
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+.img {
+    position: absolute;
+    top: -20px;
+    left: 45%;
+}
+
+header{
+    background-image: url('img/imagem-topo.png');
+    height: 660px;
+    background-position: center bottom;
+    
+}
+
+.formu{
+    border-color: red;
+}
